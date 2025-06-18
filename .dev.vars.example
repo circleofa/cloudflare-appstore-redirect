@@ -1,0 +1,11 @@
+# Development environment variables for local testing
+# Copy this file to .dev.vars and update with your actual URLs
+
+# iOS App Store URL - replace with your actual App Store link
+APPSTORE_URL=https://apps.apple.com/app/a-course-in-miracles-ce/id6448315664
+
+# Google Play Store URL - replace with your actual Play Store link
+PLAYSTORE_URL=https://play.google.com/store/apps/details?id=org.circleofa.acimce
+
+# Fallback URL for desktop and other devices - replace with your website
+FALLBACK=https://news.acimce.app

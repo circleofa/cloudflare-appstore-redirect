@@ -1,0 +1,31 @@
+{
+  "name": "cloudflare-appstore-redirect",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker that redirects to the appropriate app store or play store given the user agent",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build": "wrangler deploy --dry-run",
+    "test": "vitest",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "cloudflare",
+    "worker",
+    "redirect",
+    "appstore",
+    "playstore"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250618.0",
+    "@types/node": "^24.0.3",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4",
+    "vitest-environment-miniflare": "^2.14.4",
+    "wrangler": "^4.20.2"
+  },
+  "packageManager": "pnpm@8.12.1"
+}

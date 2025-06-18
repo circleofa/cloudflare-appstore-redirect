@@ -1,0 +1,17 @@
+name = "appstore-redirect"
+main = "src/index.ts"
+compatibility_date = "2024-01-15"
+
+[env.production.vars]
+# Environment variables will be set via wrangler secrets or dashboard
+# PLAYSTORE_URL = ""
+# APPSTORE_URL = ""
+# FALLBACK = ""
+
+[env.development]
+vars = {}
+
+# Uncomment and configure if you need custom domains
+# [[env.production.routes]]
+# pattern = "your-domain.com/*"
+# zone_name = "your-domain.com"
